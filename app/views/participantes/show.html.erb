@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @participante.user_id %>
+</p>
+
+<p>
+  <strong>Partida:</strong>
+  <%= @participante.partida_id %>
+</p>
+
+<p>
+  <strong>Local:</strong>
+  <%= @participante.local %>
+</p>
+
+<p>
+  <strong>Horario:</strong>
+  <%= @participante.horario %>
+</p>
+
+<%= link_to 'Edit', edit_participante_path(@participante) %> |
+<%= link_to 'Back', participantes_path %>
